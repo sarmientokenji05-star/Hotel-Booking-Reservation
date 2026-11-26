@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hotel Admin",
+      "email": "admin@stayease.com",
+      "password": "Admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "email": "maria@email.com",
+      "password": "Maria123",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "name": "John Reyes",
+      "email": "john@email.com",
+      "password": "John1234",
+      "role": "customer"
+    },
+    {
+      "name": "KENJI SARMIENTO",
+      "email": "sarmientokenji05@gmail.com",
+      "password": "12345678a",
+      "role": "customer",
+      "id": 4
+    },
+    {
+      "name": "guest",
+      "email": "guest@gmail.com",
+      "password": "qwerty123",
+      "role": "customer",
+      "id": 5
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "roomType": "Single",
+      "price": 1200,
+      "capacity": 1,
+      "status": "Available"
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "roomType": "Double",
+      "price": 2000,
+      "capacity": 2,
+      "status": "Available"
+    },
+    {
+      "id": 3,
+      "roomNumber": "201",
+      "roomType": "Deluxe",
+      "price": 3500,
+      "capacity": 3,
+      "status": "Available"
+    },
+    {
+      "id": 4,
+      "roomNumber": "202",
+      "roomType": "Double",
+      "price": 2200,
+      "capacity": 2,
+      "status": "Available"
+    },
+    {
+      "id": 5,
+      "roomNumber": "301",
+      "roomType": "Suite",
+      "price": 5000,
+      "capacity": 4,
+      "status": "Maintenance"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 2,
+      "roomId": 2,
+      "checkInDate": "2026-12-10",
+      "checkOutDate": "2026-12-12",
+      "bookingStatus": "Approved"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "roomId": 1,
+      "checkInDate": "2026-12-15",
+      "checkOutDate": "2026-12-17",
+      "bookingStatus": "Rejected"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "roomId": 3,
+      "checkInDate": "2026-12-20",
+      "checkOutDate": "2026-12-22",
+      "bookingStatus": "Rejected"
+    },
+    {
+      "userId": 4,
+      "roomId": 1,
+      "checkInDate": "2026-11-26",
+      "checkOutDate": "2026-11-27",
+      "bookingStatus": "Approved",
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "roomId": 2,
+      "checkInDate": "2026-11-27",
+      "checkOutDate": "2026-11-29",
+      "bookingStatus": "Cancelled",
+      "id": 5
+    }
+  ]
+}
